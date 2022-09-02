@@ -69,4 +69,12 @@ a {
    .botao{
        border-radius: 20px;
        background-color: #EADFCC;
+       padding: 1px;
+       color: black;
+       transition: all 0.5s;
+   }
+
+   .botao:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
    }
