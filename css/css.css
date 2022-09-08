@@ -16,10 +16,11 @@ a {
 .container{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 150px 700px 100px ;
+    grid-template-rows: 150px 700px 250px 180px ;
     grid-template-areas: 
     "header"
     "main"
+    "autor"
     "footer"
     ;
 }
@@ -78,3 +79,8 @@ a {
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
    }
+
+.autores{
+    grid-area: autor;
+    background-color: #73B2D4;
+}
