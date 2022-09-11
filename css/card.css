@@ -1,17 +1,21 @@
+.reverse {
+  flex-direction: row-reverse;
+}
 .container-card {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #9cafb7;
-  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .container-card {
+    flex-direction: column;
+  }
 }
 .image-resize {
   flex: 1;
-  background-size: cover;
-  background: url(./../images/potter.jpg) no-repeat;
-  /* 
-  Oms Samsung nações unidas metas de desenvolvimento
-  */
+  object-fit: fill;
+  background-size: contain;
   height: 400px;
   width: 100vh;
 }
@@ -27,4 +31,19 @@
 }
 .text h1 {
   text-align: center;
+}
+.dart {
+  background: url(./../images/Dart-Vader.png) no-repeat;
+}
+.america {
+  background: url(./../images/Capitan-America.jpg) no-repeat;
+}
+.voldemort {
+  background: url(./../images/Voldemord.jpg) no-repeat;
+}
+.soldier {
+  background: url(./../images/Soldier-Boy.png) no-repeat;
+}
+.thomas {
+  background: url(./../images/Thomas-shelby.jpeg) no-repeat;
 }

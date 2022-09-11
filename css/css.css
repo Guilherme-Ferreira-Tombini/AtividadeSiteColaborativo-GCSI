@@ -14,7 +14,7 @@ a {
 .container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 150px 700px 100px;
+  grid-template-rows: 150px 1fr 100px;
   grid-template-areas:
     "header"
     "main"
