@@ -1,0 +1,30 @@
+.container-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #9cafb7;
+  flex-direction: column;
+}
+.image-resize {
+  flex: 1;
+  background-size: cover;
+  background: url(./../images/potter.jpg) no-repeat;
+  /* 
+  Oms Samsung nações unidas metas de desenvolvimento
+  */
+  height: 400px;
+  width: 100vh;
+}
+.image {
+  flex: 1;
+  display: flex;
+}
+.text {
+  flex: 1;
+  background-color: #9cafb7;
+  padding: 20px;
+  text-align: justify;
+}
+.text h1 {
+  text-align: center;
+}
