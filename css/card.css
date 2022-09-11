@@ -1,0 +1,50 @@
+.reverse {
+  flex-direction: row-reverse;
+}
+.container-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #9cafb7;
+}
+@media screen and (max-width: 900px) {
+  .container-card {
+    flex-direction: column;
+  }
+}
+.image-resize {
+  flex: 1;
+  object-fit: fill;
+  align-self: center;
+  background-size: contain;
+  height: 516px;
+  width: 516px;
+}
+.image {
+  flex: 1;
+  display: flex;
+}
+.text {
+  flex: 1;
+  background-color: #9cafb7;
+  padding: 20px;
+  text-align: justify;
+}
+.text h1 {
+  text-align: center;
+}
+.dart {
+  background: url(./../images/Dart-Vader-512.png) center no-repeat;
+}
+.america {
+  background: url(./../images/Capitan-America.jpg) center no-repeat;
+}
+.voldemort {
+  background: url(./../images/Voldemord.jpg) center no-repeat;
+}
+.soldier {
+  background: url(./../images/Soldier-Boy.png) center no-repeat;
+}
+.thomas {
+  background: url(./../images/Thomas-shelby.jpeg) center no-repeat;
+}
