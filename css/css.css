@@ -135,20 +135,89 @@ a {
   }
 }
 
-.titulopag {
-  float: left;
+.title{
+   font-size: 40px;
+ }  
+
+.botao{
+    border-radius: 20px;
+    background-color: #EADFCC;
+    padding: 1px;
+    color: black;
+    transition: all 0.5s;
+   }
+
+.botao2{
+    border-radius: 20px;
+    background-color: #bebebc;
+    padding: 1px;
+    color: black;
+    transition: all 0.5s;
 }
 
-.title {
-  font-size: 40px;
+.botao:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+   }
+
+.botao2:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
-.botao {
-  border-radius: 20px;
-  background-color: #eadfcc;
-  padding: 1px;
-  color: black;
-  transition: all 0.5s;
+
+.autores{
+    grid-area: autor;
+    background-color: #73B2D4;
 }
+
+#menu{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 45px;
+}
+
+.card{
+    background-color: #EADFCC;
+    padding: 30px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    color:black
+}
+
+@media(max-width: 300px){
+    .card{
+        font-size: 15px;
+    }
+    #texto{
+        margin-top: -10px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 720px){
+    #icone{
+        display: block;
+    }
+    #icone, button{
+        font-size: 50px;
+        background-color: transparent;
+        border: none;
+        color:white;
+    }
+    #menu{
+        margin-top: 78px;
+        margin-right: 10px;
+    }
+    .title{
+        font-size: 30px;
+        margin-top: -30px;
+      }  
+    }
 
 .botao:hover {
   -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
