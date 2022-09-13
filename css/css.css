@@ -154,8 +154,7 @@ a {
     position: absolute;
     right: 0;
     top: 0;
-    margin-top: 45px;
-    
+    margin-top: 80px;   
 }
 
 .card{
@@ -178,6 +177,9 @@ a {
         margin-top: -10px;
         font-size: 20px;
     }
+    #menu{
+      margin-right: -210px;
+  }
 }
 
 @media(max-width: 720px){
@@ -191,8 +193,7 @@ a {
         color:white;
     }
     #menu{
-        margin-top: 78px;
-        margin-right: 10px;
+      margin-right: -100px;
     }
     .title{
         font-size: 30px;
