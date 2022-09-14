@@ -12,14 +12,7 @@
     flex-direction: column;
   }
 }
-.image-resize {
-  flex: 1;
-  object-fit: fill;
-  align-self: center;
-  background-size: contain;
-  height: 516px;
-  width: 516px;
-}
+
 .image {
   flex: 1;
   display: flex;
@@ -29,22 +22,16 @@
   background-color: #9cafb7;
   padding: 20px;
   text-align: justify;
+  align-items: center;
+  justify-content: center;
 }
 .text h1 {
   text-align: center;
+  padding: 40px;
 }
-.dart {
-  background: url(./../images/Dart-Vader-512.png) center no-repeat;
-}
-.america {
-  background: url(./../images/Capitan-America.jpg) center no-repeat;
-}
-.voldemort {
-  background: url(./../images/Voldemord.jpg) center no-repeat;
-}
-.soldier {
-  background: url(./../images/Soldier-Boy.png) center no-repeat;
-}
-.thomas {
-  background: url(./../images/Thomas-shelby.jpeg) center no-repeat;
+
+img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
