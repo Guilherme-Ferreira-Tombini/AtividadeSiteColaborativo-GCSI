@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@700&family=Poppins:wght@200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .reverse {
   flex-direction: row-reverse;
 }
@@ -5,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #9cafb7;
+  background-color: #eadfcc;
 }
 @media screen and (max-width: 900px) {
   .container-card {
@@ -19,15 +21,21 @@
 }
 .text {
   flex: 1;
-  background-color: #9cafb7;
-  padding: 20px;
+  background-color: #eadfcc;
+  padding: 30px;
   text-align: justify;
   align-items: center;
   justify-content: center;
+  font-family: 'Poppins', sans-serif;
+
 }
 .text h1 {
   text-align: center;
-  padding: 40px;
+  margin-bottom: 20px;
+}
+
+.text p{
+  font-size: 18px;
 }
 
 img {
