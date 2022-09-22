@@ -3,11 +3,12 @@
 ## Tela Inicial
 
 #### Desktop
-![image](https://user-images.githubusercontent.com/86084272/190045355-cbd63d26-3b9d-498a-b47b-afb35f91ebd4.png)
+![imagem](https://user-images.githubusercontent.com/85890520/191778779-1c0fe17f-e368-4216-9645-d6b2d55984fb.png)
 
 #### Mobile
+![imagem2](https://user-images.githubusercontent.com/85890520/191779208-16e9ddf0-93a0-4bb3-86ba-3c15f8a1cf16.png)
 
- ![127 0 0 1_5500_index html(iPhone XR) (3) (1)](https://user-images.githubusercontent.com/86084272/190045630-3aac8286-a638-4e5d-b230-563c1023b8a8.png)
+
 
 ## 🛠 Como Rodar
 
